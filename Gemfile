@@ -33,6 +33,8 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 gem "devise"
+gem "devise-bootstrap-views"
+gem "iex-ruby-client"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
@@ -75,3 +77,5 @@ end
 group :production do
   gem "pg"
 end
+
+gem "bootstrap", "~> 5.1.3"
